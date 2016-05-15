@@ -8,4 +8,4 @@ function LogFormatter($data, $leveltype)
         logLevel = $levelType
     }
     return (ConvertTo-Json $logRecord -Compress)
-}$val = LogFormatter -data "hello" -leveltype info
+}<# Test$val = LogFormatter -data "hello" -leveltype info#>
